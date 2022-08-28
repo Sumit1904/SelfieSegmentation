@@ -9,6 +9,6 @@ ss = SelfieSegmentation( BG_COLOR=(255, 255, 255), MASK_COLOR=(0, 0, 0))
 ss.staticSegmentation(path, saveto, saveMask=0, backgroundimage=0)
 # If backgroundimage = 'path of the image' The segmentation will 
 # have a image instead of plain background colour
-videoSegmentation(self, cam=0, threshold=0.5, backgroundimage=0)
+ss.videoSegmentation(self, cam=0, threshold=0.5, backgroundimage=0)
 
 ```
